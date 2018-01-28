@@ -54,7 +54,7 @@ img {
 }
 
 ol {
-
+  list-style-position: inside;
 }
 
 ul {
@@ -67,3 +67,19 @@ table {
 }
 
 tr:nth-child(even) {background-color: #9bb3c5;}
+
+
+/* content2 continues the left float; it will sit at the right side of content1 */
+
+/*.content2 {
+  float: left;
+}
+*/
+
+/* clearfix is applied to the parent container to 'fix' the flow of the page */
+
+/*.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
